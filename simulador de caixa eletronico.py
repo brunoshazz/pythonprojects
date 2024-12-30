@@ -28,9 +28,11 @@ while True:
         tirar = float(input("Quanto deseja retirar? "))
         print("\n")
         saldo -= tirar
+        
     elif opcao == int(4):
         print("Muito obrigado por sua visita! Ate mais breve!")
         break
+        
     else:
         print("Codigo errado, tente novamente")
         print("\n")
